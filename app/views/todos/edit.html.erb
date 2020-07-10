@@ -4,7 +4,7 @@
   <ul>
     <% @todo.errors.full_messages.each do |msg| %>
     <li><%= msg %></li>
-    <% end %>    
+    <% end %>
   </ul>
 <% end %>
 
@@ -25,3 +25,7 @@
 </p>
 
 <% end %>
+
+<p>
+<%= link_to "Cancel", todos_path %>
+</p>
